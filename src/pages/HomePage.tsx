@@ -1,6 +1,5 @@
-// import LandingSection from '../components/LandingSection'
-// import ProjectsSection from '../components/ProjectsSection'
-// import ContactSection from '../components/ContactSection'
+import LandingSection from '../components/LandingSection'
+import ProjectsSection from '../components/ProjectsSection'
 import { Container } from '../components/container'
 import { Helmet } from 'react-helmet'
 
@@ -10,9 +9,8 @@ function HomePage() {
     <Helmet>
       <title>Welcome to my Portfolio</title>
     </Helmet>
-    {/* <LandingSection />
+    <LandingSection />
     <ProjectsSection />
-    <ContactSection /> */}
   </Container>
   )
 }
