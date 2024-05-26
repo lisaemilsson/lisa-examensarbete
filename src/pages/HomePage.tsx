@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <Container>
     <Helmet>
-      <title>Welcome to my Portfolio</title>
+      <title>Examensarbete</title>
     </Helmet>
     <LandingSection />
     <ProjectsSection />
