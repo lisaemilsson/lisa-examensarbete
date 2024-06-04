@@ -13,6 +13,7 @@ function ProjectsSection() {
           title={project.title}
           image={project.image}
           description={project.description}
+          text={project.text}
           slug={project.slug}
         />
       ))}

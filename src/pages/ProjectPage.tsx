@@ -29,12 +29,15 @@ function ProjectPage() {
             className=" object-cover w-full h-96 rounded-2xl"
           />
           <section>
-            <h1 className="py-16 text-4xl font-bold text-slate-800 text-center">
+            <h1 className="py-10 text-4xl font-bold text-slate-800 text-center">
               {project.title}
             </h1>
+            <h6 className="py-5 text-1xl font-bold text-slate-800 text-center">
+              {project.description}
+            </h6>
           </section>
-          <section></section>
-          <section>{project.description}</section>
+          <section><p>{project.text}</p></section>
+          
         </Container>
       </div>
     )
