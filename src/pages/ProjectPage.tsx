@@ -23,7 +23,7 @@ function ProjectPage() {
         <Container variant="blog">
           <BackButton to="/" />
           <img
-            src={project.image}
+            src={project.image} height={600} width={450}
             alt={"En bild som beskriver" + project.title}
             className=" object-cover w-full h-96 rounded-2xl"
           />
