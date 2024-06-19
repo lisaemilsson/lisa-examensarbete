@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import BackButton from '../components/BackButton'
 import { Container } from '../components/container'
@@ -25,7 +24,7 @@ function ProjectPage() {
           <BackButton to="/" />
           <img
             src={project.image}
-            alt={project.title}
+            alt={"En bild som beskriver" + project.title}
             className=" object-cover w-full h-96 rounded-2xl"
           />
           <section>

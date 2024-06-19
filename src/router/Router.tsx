@@ -1,4 +1,3 @@
-import React from 'react'
 import { HomePage, ProjectPage } from '../pages'
 import { Route, Routes } from 'react-router-dom'
 

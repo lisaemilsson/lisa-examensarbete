@@ -1,6 +1,3 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { Collapse } from "flowbite";
-
 function Navbar() {
 
   return (  
