@@ -5,9 +5,11 @@ import { Container } from '../components/container'
 
 function Layout({ children }: { children: ReactNode }) {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <Container>{children}</Container>
+      <main className="flex-grow">
+        <Container>{children}</Container>
+      </main>
       <Footer />
     </div>
   )
